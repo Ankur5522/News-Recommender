@@ -1,0 +1,550 @@
+id,labels,properties
+0,['Article'],"{'category': 'technology and computing', 'createdAt': '2024-11-15T12:53:33.505Z', 'url': 'https://www.thehindu.com/sci-tech/technology/googles-ai-chatbot-gemini-verbally-abused-user-told-them-to-die-report/article68871570.ece'}"
+1,['Category'],{'name': 'technology and computing'}
+2,['Tag'],{'name': 'gemini responded user'}
+3,['Article'],"{'category': 'academic interests', 'createdAt': '2024-11-15T12:53:36.339Z', 'url': 'https://www.thehindu.com/news/cities/bangalore/social-media-for-children-to-ban-or-not-to-ban/article68859382.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=1&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+4,['Category'],{'name': 'academic interests'}
+5,['Tag'],{'name': 'Instagram'}
+6,['Tag'],{'name': 'Anitha M. Kalibhat'}
+7,['Tag'],{'name': 'K. John Vijay Sagar'}
+8,['Tag'],{'name': 'Sagar'}
+9,['Tag'],{'name': 'Nirupama G.'}
+10,['Tag'],{'name': 'Bengaluru'}
+11,['Tag'],{'name': 'School Coordinator'}
+12,['Tag'],{'name': 'Alpine Public School'}
+13,['Tag'],{'name': 'Vasudeva Sharma N.V.'}
+14,['Tag'],{'name': 'Child Rights Trust'}
+15,['Tag'],{'name': 'India'}
+16,['Tag'],{'name': 'social media children'}
+17,['Tag'],{'name': 'social media parents'}
+18,['User'],{'id': 'user123'}
+19,['Tag'],{'name': 'excessive social media'}
+20,['Tag'],{'name': 'social media use'}
+21,['Tag'],{'name': 'social media early'}
+22,['Tag'],{'name': 'social media risks'}
+23,['Tag'],{'name': 'usage social media'}
+24,['Tag'],{'name': 'adolescents turn social'}
+25,['Tag'],{'name': 'excessive use adolescents'}
+26,['Tag'],{'name': 'ban social media'}
+27,['Article'],"{'category': 'arts and culture', 'createdAt': '2024-11-15T12:53:38.991Z', 'url': 'https://www.thehindu.com/entertainment/art/hyderabad-all-set-to-host-indian-photo-festival-2024/article68862868.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=3&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+28,['Category'],{'name': 'arts and culture'}
+29,['Tag'],{'name': 'Aquin Mathews'}
+30,['Tag'],{'name': 'Smita Sharma’s'}
+31,['Tag'],{'name': 'Aquin'}
+32,['Tag'],{'name': 'Chris Rainier'}
+33,['Tag'],{'name': 'Rainier'}
+34,['Tag'],{'name': 'Chris Rainier’s'}
+35,['Tag'],{'name': 'Debalina Mazumder'}
+36,['Tag'],{'name': 'Manobina Roy'}
+37,['Tag'],{'name': 'Telangana Jishnu Dev Varma’s'}
+38,['Tag'],{'name': 'Chandra Manikya'}
+39,['Tag'],{'name': 'Andhra Pradesh'}
+40,['Tag'],{'name': 'Google'}
+41,['Tag'],{'name': 'Rajesh Vallepu'}
+42,['Tag'],{'name': 'Peerla Panduga'}
+43,['Tag'],{'name': 'Muharram'}
+44,['Tag'],{'name': 'Bhumika Saraswati’s'}
+45,['Tag'],{'name': 'Clara Watt’s'}
+46,['Tag'],{'name': 'Silent Screams'}
+47,['Tag'],{'name': 'Nicole Tung'}
+48,['Tag'],{'name': 'Matt Black'}
+49,['Tag'],{'name': 'Zentrum'}
+50,['Tag'],{'name': 'Indian Photo Festival'}
+51,['Tag'],{'name': 'Hyderabad'}
+52,['Tag'],{'name': 'The Indian Photo Festival'}
+53,['Tag'],{'name': 'IPF'}
+54,['Tag'],{'name': 'National Geographic'}
+55,['Tag'],{'name': 'Australia'}
+56,['Tag'],{'name': 'Strictly Prohibited'}
+57,['Tag'],{'name': 'Maharaja Bir'}
+58,['Tag'],{'name': 'Tripura'}
+59,['Tag'],{'name': 'Lala Deen Dayal'}
+60,['Tag'],{'name': 'Maharaja'}
+61,['Tag'],{'name': 'Telangana'}
+62,['Tag'],{'name': 'Amazon'}
+63,['Tag'],{'name': 'Ghana'}
+64,['Tag'],{'name': 'The Promotion of Proper Human Sexual Rights and Family Values'}
+65,['Tag'],{'name': 'Odisha'}
+66,['Tag'],{'name': 'Indian Photo Festival 2024'}
+67,['Tag'],{'name': 'State Gallery of Art'}
+68,['Tag'],{'name': 'photography festival india'}
+69,['Tag'],{'name': 'photo festival ipf'}
+70,['Tag'],{'name': 'indian photo festival'}
+71,['Tag'],{'name': 'photographers india'}
+72,['Tag'],{'name': 'pradesh emerging photographer'}
+73,['Tag'],{'name': 'exhibitions check indianphotofest'}
+74,['Tag'],{'name': 'exhibition photography strictly'}
+75,['Tag'],{'name': 'exhibition photography'}
+76,['Tag'],{'name': 'masterclasses indian photo'}
+77,['Tag'],{'name': 'photography art'}
+78,['Article'],"{'category': 'news and politics', 'createdAt': '2024-11-15T12:53:43.367Z', 'url': 'https://www.thehindu.com/education/trumps-triumph-what-it-means-for-study-abroad-aspirants-from-india/article68848670.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=1&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+79,['Category'],{'name': 'news and politics'}
+80,['Tag'],{'name': 'Trump'}
+81,['Tag'],{'name': 'Donald Trump'}
+82,['Tag'],{'name': 'Bill'}
+83,['Tag'],{'name': 'Steve Bannon'}
+84,['Tag'],{'name': 'Stephen Miller'}
+85,['Tag'],{'name': 'Elon Musk'}
+86,['Tag'],{'name': 'Musk'}
+87,['Tag'],{'name': 'Usha Vance'}
+88,['Tag'],{'name': 'Pavithra Srinivasan'}
+89,['Tag'],{'name': 'CBS News'}
+90,['Tag'],{'name': 'The United States'}
+91,['Tag'],{'name': 'the QS World University Rankings'}
+92,['Tag'],{'name': 'the United States'}
+93,['Tag'],{'name': 'OPT & H-1B'}
+94,['Tag'],{'name': 'The Optional Practical Training'}
+95,['Tag'],{'name': 'OPT'}
+96,['Tag'],"{'name': 'Science, Technology, Engineering'}"
+97,['Tag'],{'name': 'Non-STEM'}
+98,['Tag'],{'name': 'H-1B'}
+99,['Tag'],{'name': 'US'}
+100,['Tag'],{'name': 'Kunal Bahl'}
+101,['Tag'],"{'name': 'Indian E-Commerce Startup, Snapdeal'}"
+102,['Tag'],{'name': 'Elon'}
+103,['Tag'],{'name': 'Vivek Ramaswamy'}
+104,['Tag'],{'name': 'J.D. Vance'}
+105,['Tag'],{'name': 'Engineering'}
+106,['Tag'],{'name': 'Stanford University'}
+107,['Tag'],{'name': 'Co-founder & COO'}
+108,['Tag'],{'name': 'Galvanize Global Education'}
+109,['Tag'],{'name': 'country american universities'}
+110,['Tag'],{'name': 'american universities receive'}
+111,['Tag'],{'name': 'american universities'}
+112,['Tag'],{'name': 'higher education substantial'}
+113,['Tag'],{'name': 'universities receive considerable'}
+114,['Tag'],{'name': 'universities 100 significantly'}
+115,['Tag'],{'name': 'study abroad chances'}
+116,['Tag'],{'name': 'international universities'}
+117,['Tag'],{'name': 'aspirants international universities'}
+118,['Tag'],{'name': 'qualified international students'}
+119,['Article'],"{'category': 'business and finance', 'createdAt': '2024-11-15T12:53:50.234Z', 'url': 'https://www.thehindu.com/business/Economy/rupee-may-depreciate-8-10-during-trump-20-says-sbi-report/article68856168.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=3&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+120,['Category'],{'name': 'business and finance'}
+121,['Tag'],{'name': 'Donald J Trump’s'}
+122,['Tag'],{'name': 'Joe Biden'}
+123,['Tag'],{'name': 'ITeS'}
+124,['Tag'],{'name': 'Rupee'}
+125,['Tag'],{'name': 'SBI'}
+126,['Tag'],{'name': 'U.S'}
+127,['Tag'],{'name': 'U.S. Presidential Election 2024: How Trump 2.0 Impacts India’s'}
+128,['Tag'],{'name': 'U.S.'}
+129,['Tag'],{'name': 'Global Economy'}
+130,['Tag'],{'name': 'Forex'}
+131,['Tag'],{'name': 'FDI'}
+132,['Tag'],{'name': 'Trump 1.0'}
+133,['Tag'],{'name': 'trump impacts india'}
+134,['Tag'],{'name': 'trump said rupee'}
+135,['Tag'],{'name': 'said rupee depreciated'}
+136,['Tag'],{'name': 'rupee depreciate sharply'}
+137,['Tag'],{'name': 'rupee depreciate'}
+138,['Tag'],{'name': 'fear rupee depreciate'}
+139,['Tag'],{'name': 'rupee depreciated'}
+140,['Tag'],{'name': 'rupee depreciate 10'}
+141,['Tag'],{'name': 'depreciate 10 trump'}
+142,['Tag'],{'name': 'noted depreciation rupee'}
+143,['Article'],"{'category': 'personal finance', 'createdAt': '2024-11-15T12:54:21.764Z', 'url': 'https://www.thehindu.com/business/markets/rupee-falls-2-paise-to-hit-new-all-time-low-of-8439-against-us-dollar/article68855316.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=2&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+144,['Category'],{'name': 'personal finance'}
+145,['Tag'],"{'name': ""Donald Trump's""}"
+146,['Tag'],{'name': 'Praveen Singh'}
+147,['Tag'],{'name': 'Sharekhan'}
+148,['Tag'],{'name': 'USD'}
+149,['Tag'],"{'name': ""The Reserve Bank's""}"
+150,['Tag'],{'name': 'CBS'}
+151,['Tag'],{'name': 'Fundamental Currencies and Commodities'}
+152,['Tag'],{'name': 'BNP Paribas'}
+153,['Tag'],{'name': 'BSE Sensex'}
+154,['Tag'],{'name': 'Nifty'}
+155,['Tag'],{'name': 'RBI'}
+156,['Tag'],{'name': 'rupee dropped'}
+157,['Tag'],{'name': 'rupee dropped paise'}
+158,['Tag'],{'name': '2024 rupee dropped'}
+159,['Tag'],{'name': 'session rupee dropped'}
+160,['Tag'],{'name': 'rupee falls paise'}
+161,['Tag'],{'name': 'foreign exchange rupee'}
+162,['Tag'],{'name': 'rupee likely remain'}
+163,['Tag'],{'name': 'rupee falls'}
+164,['Tag'],{'name': 'rupee opened 84'}
+165,['Tag'],{'name': 'rupee likely'}
+166,['Article'],"{'category': 'news and politics', 'createdAt': '2024-11-15T12:54:24.488Z', 'url': 'https://www.thehindu.com/sci-tech/technology/what-trumps-elon-musk-vivek-ramaswamy-pick-means-to-the-us-government/article68871585.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=1&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+167,['Tag'],{'name': 'Trump’s Elon Musk'}
+168,['Tag'],{'name': 'Government Bureaucracy'}
+169,['Tag'],{'name': 'Ramaswamy'}
+170,['Tag'],{'name': 'Twitter'}
+171,['Tag'],{'name': 'Gemini'}
+172,['Tag'],{'name': 'Donald Trump’s'}
+173,['Tag'],{'name': 'Sumitomo Dianippon'}
+174,['Tag'],{'name': 'Ronald Reagan'}
+175,['Tag'],{'name': 'Schedule F'}
+176,['Tag'],{'name': 'the Department of Government Efficiency'}
+177,['Tag'],{'name': 'DOGE'}
+178,['Tag'],{'name': 'Federal Agencies'}
+179,['Tag'],{'name': 'the White House'}
+180,['Tag'],{'name': 'the Office of Management and Budget'}
+181,['Tag'],{'name': 'Starlink'}
+182,['Tag'],{'name': 'LEO'}
+183,['Tag'],{'name': 'the Delaware Chancery Court'}
+184,['Tag'],{'name': 'Roivant Sciences'}
+185,['Tag'],{'name': 'Forbes'}
+186,['Tag'],{'name': 'FBI'}
+187,['Tag'],{'name': 'the Grace Commission'}
+188,['Tag'],{'name': 'the White House Office of Cabinet Affairs'}
+189,['Tag'],{'name': 'Grace Commission'}
+190,['Tag'],{'name': 'Congress'}
+191,['Tag'],{'name': 'ceo elon musk'}
+192,['Tag'],{'name': 'billionaire elon musk'}
+193,['Tag'],{'name': 'trump elon musk'}
+194,['Tag'],{'name': 'musk visionary businessman'}
+195,['Tag'],{'name': 'musk trump'}
+196,['Tag'],{'name': 'elon musk'}
+197,['Tag'],{'name': 'elon musk biotech'}
+198,['Tag'],{'name': 'mr musk trump'}
+199,['Tag'],{'name': 'musk biotech entrepreneur'}
+200,['Tag'],{'name': 'mr musk business'}
+201,['Article'],"{'category': 'business and finance', 'createdAt': '2024-11-15T12:54:35.681Z', 'url': 'https://www.thehindu.com/news/international/navy-didnt-understand-risks-posed-by-hawaii-fuel-tanks-despite-studies-us-military-watchdog/article68871574.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=2&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+202,['Tag'],{'name': 'Robert P. Storch'}
+203,['Tag'],{'name': 'Pearl Harbour'}
+204,['Tag'],{'name': 'Oahu'}
+205,['Tag'],{'name': 'AI'}
+206,['Tag'],{'name': 'Navy'}
+207,['Tag'],{'name': 'Hawaii'}
+208,['Tag'],{'name': 'the U.S. Department of Defence’s'}
+209,['Tag'],{'name': 'the Red Hill Bulk Fuel Storage Facility'}
+210,['Tag'],{'name': 'Honolulu'}
+211,['Tag'],{'name': 'the Sierra Club of'}
+212,['Tag'],{'name': 'the Honolulu Board of Water Supply'}
+213,['Tag'],{'name': 'the state department of health'}
+214,['Tag'],"{'name': ""Pearl Harbor's""}"
+215,['Tag'],{'name': 'pearl harbour spilled'}
+216,['Tag'],{'name': 'hawaii fuel tanks'}
+217,['Tag'],{'name': 'fuel 2021 spill'}
+218,['Tag'],{'name': 'navy fuel facilities'}
+219,['Tag'],{'name': 'navy fuel'}
+220,['Tag'],{'name': 'investigation fuel leak'}
+221,['Tag'],{'name': 'spilled jet fuel'}
+222,['Tag'],{'name': 'water pearl harbour'}
+223,['Tag'],{'name': 'hawaii fuel'}
+224,['Tag'],{'name': '2021 spill navy'}
+225,['Article'],"{'category': 'health', 'createdAt': '2024-11-15T12:54:38.166Z', 'url': 'https://www.thehindu.com/news/cities/Delhi/delhi-air-pollution-cm-atishi-announces-staggered-timings-for-govt-offices-to-tackle-traffic-congestion/article68871906.ece'}"
+226,['Category'],{'name': 'health'}
+227,['Tag'],{'name': 'CM Atishi'}
+228,['Tag'],{'name': 'chatbot gemini responded'}
+229,['Tag'],{'name': 'Atishi'}
+230,['Tag'],{'name': 'Govt'}
+231,['Tag'],{'name': 'the Municipal Corporation of Delhi'}
+232,['Tag'],{'name': 'Central Government'}
+233,['Tag'],{'name': 'Delhi Government'}
+234,['Tag'],{'name': 'The Commission for Air Quality Management (CAQM'}
+235,['Tag'],{'name': 'delhi air pollution'}
+236,['Tag'],{'name': 'congestion delhi'}
+237,['Tag'],{'name': 'congestion delhi chief'}
+238,['Tag'],{'name': 'traffic congestion delhi'}
+239,['Tag'],{'name': 'delhi government'}
+240,['Tag'],{'name': 'municipal corporation delhi'}
+241,['Tag'],{'name': 'delhi air'}
+242,['Tag'],{'name': 'delhi government offices'}
+243,['Tag'],{'name': 'delhi chief minister'}
+244,['Tag'],{'name': 'pollution cm atishi'}
+245,['Article'],"{'category': 'travel', 'createdAt': '2024-11-15T12:54:42.471Z', 'url': 'https://www.thehindu.com/news/national/pm-modis-aircraft-develops-technical-snag-at-deoghar-airport/article68871945.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=3&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+246,['Tag'],{'name': 'chatbot gemini verbally'}
+247,['Category'],{'name': 'travel'}
+248,['Tag'],{'name': 'Narendra Modi'}
+249,['Tag'],{'name': 'Modi'}
+250,['Tag'],{'name': 'Jamui'}
+251,['Tag'],{'name': 'Birsa Munda'}
+252,['Tag'],{'name': 'Janjatiya Gaurav Divas'}
+253,['Tag'],{'name': 'Vishal Sagar'}
+254,['Tag'],{'name': 'Rahul Gandhi'}
+255,['Tag'],{'name': 'Gandhi'}
+256,['Tag'],{'name': 'Deepika Pandey Singh'}
+257,['Tag'],{'name': 'Delhi'}
+258,['Tag'],{'name': 'IAF'}
+259,['Tag'],{'name': 'Jharkhand'}
+260,['Tag'],{'name': 'New Delhi'}
+261,['Tag'],{'name': 'the Indian Air Force'}
+262,['Tag'],{'name': 'Bihar'}
+263,['Tag'],{'name': 'PTI'}
+264,['Tag'],{'name': 'Godda'}
+265,['Tag'],{'name': 'Centre'}
+266,['Tag'],{'name': 'modi left delhi'}
+267,['Tag'],{'name': 'flew delhi plane'}
+268,['Tag'],{'name': 'flew delhi'}
+269,['Tag'],{'name': 'pm leaves delhi'}
+270,['Tag'],{'name': 'snag flew delhi'}
+271,['Tag'],{'name': 'modi supposed fly'}
+272,['Tag'],{'name': 'delhi deoghar aircraft'}
+273,['Tag'],{'name': 'fly new delhi'}
+274,['Tag'],{'name': 'narendra modi stranded'}
+275,['Tag'],{'name': 'ai chatbot gemini'}
+276,['Tag'],{'name': 'delhi plane'}
+277,['Article'],"{'category': 'academic interests', 'createdAt': '2024-11-15T12:54:48.260Z', 'url': 'https://www.thehindu.com/education/ayurveda-biology-in-net-jagadesh-kumar-explains-why-some-experts-add-caveats/article68863060.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=1&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+278,['Tag'],{'name': 'Kumar'}
+279,['Tag'],{'name': 'Ayurveda Biology'}
+280,['Tag'],{'name': 'Sharira Rachna'}
+281,['Tag'],{'name': 'M. Jagadesh Kumar'}
+282,['Tag'],{'name': 'Jagadesh Kumar'}
+283,['Tag'],{'name': 'Chandra Lakhotia'}
+284,['Tag'],{'name': 'Lakhotia'}
+285,['Tag'],{'name': 'Sharira Kriya'}
+286,['Tag'],{'name': 'Surgery'}
+287,['Tag'],{'name': 'Marthanda Varma'}
+288,['Tag'],{'name': 'Valiathan'}
+289,['Tag'],{'name': 'Susruta'}
+290,['Tag'],{'name': 'G. Sivaraman'}
+291,['Tag'],{'name': 'Sivaraman'}
+292,['Tag'],{'name': 'Siddha'}
+293,['Tag'],{'name': 'Sam Pitroda'}
+294,['Tag'],{'name': 'Darshan Shankar'}
+295,['Tag'],{'name': 'Gurmeet Singh'}
+296,['Tag'],{'name': 'NET'}
+297,['Tag'],{'name': 'Jagadesh'}
+298,['Tag'],{'name': 'the University Grants Commission'}
+299,['Tag'],{'name': 'UGC'}
+300,['Tag'],{'name': 'the National Eligibility Test'}
+301,['Tag'],{'name': 'the National Testing Agency'}
+302,['Tag'],{'name': 'NTA'}
+303,['Tag'],{'name': 'UGC-NET'}
+304,['Tag'],{'name': 'Ayurveda'}
+305,['Tag'],{'name': 'Kriya'}
+306,['Tag'],"{'name': 'Microbiology, Immunology,'}"
+307,['Tag'],{'name': 'Genetics'}
+308,['Tag'],{'name': 'the National Education Policy 2020’s'}
+309,['Tag'],{'name': 'UGC NET'}
+310,['Tag'],{'name': 'Indian Knowledge Systems'}
+311,['Tag'],{'name': 'IKS'}
+312,['Tag'],{'name': 'BHU'}
+313,['Tag'],{'name': 'Lifetime'}
+314,['Tag'],{'name': 'SERB Distinguished Fellow Cytogenetics Laboratory'}
+315,['Tag'],{'name': 'BAMS'}
+316,['Tag'],{'name': 'Bachelor of Ayurvedic Medicine'}
+317,['Tag'],{'name': 'Ayurvedic Biology'}
+318,['Tag'],{'name': 'Sree Chitra Tirunal Institute for Medical Sciences and Technology (SCTIMST'}
+319,['Tag'],{'name': 'Charaka'}
+320,['Tag'],{'name': 'Vagbhata'}
+321,['Tag'],{'name': 'Indian Knowledge System'}
+322,['Tag'],{'name': 'the Jawaharlal Nehru University'}
+323,['Tag'],{'name': 'JNU'}
+324,['Tag'],{'name': 'the University of Trans-Disciplinary Health Sciences and Technology'}
+325,['Tag'],{'name': 'TDU'}
+326,['Tag'],{'name': 'Centre for Ayurveda Biology and Holistic Nutrition'}
+327,['Tag'],{'name': 'Ayurveda and Biology'}
+328,['Tag'],{'name': 'syllabus ayurveda biology'}
+329,['Tag'],{'name': 'ayurveda syllabus'}
+330,['Tag'],{'name': 'net syllabus ayurveda'}
+331,['Tag'],{'name': 'ayurveda biology discipline'}
+332,['Tag'],{'name': 'biology ayurveda students'}
+333,['Tag'],{'name': 'ayurveda syllabus covers'}
+334,['Tag'],{'name': 'principles ayurveda syllabus'}
+335,['Tag'],{'name': 'ayurveda biology knowledge'}
+336,['Tag'],{'name': 'gemini verbally abused'}
+337,['Tag'],{'name': 'syllabus ayurveda'}
+338,['Tag'],{'name': 'ayurveda biology seeks'}
+339,['Article'],"{'category': 'sports', 'createdAt': '2024-11-15T12:54:53.594Z', 'url': 'https://www.thehindu.com/news/national/uttarakhand/6-students-killed-1-injured-as-car-crashes-into-truck-in-dehradun/article68870973.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=5&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+340,['Category'],{'name': 'sports'}
+341,['Tag'],{'name': 'Pushkar Singh Dhami'}
+342,['Tag'],{'name': 'Kunal Kukreja'}
+343,['Tag'],{'name': 'Atul Agrawal'}
+344,['Tag'],{'name': 'Rishabh Jain'}
+345,['Tag'],{'name': 'Navya Goel'}
+346,['Tag'],{'name': 'Kamakshi'}
+347,['Tag'],{'name': 'Guneet'}
+348,['Tag'],{'name': 'Kukreja'}
+349,['Tag'],{'name': 'Siddhesh Agrawal'}
+350,['Tag'],{'name': 'Semwal'}
+351,['Tag'],{'name': 'Dehradun'}
+352,['Tag'],{'name': 'the ONGC Chowk'}
+353,['Tag'],{'name': 'Uttarkashi'}
+354,['Tag'],{'name': 'Rudraprayag'}
+355,['Tag'],{'name': 'Uttarakhand'}
+356,['Tag'],{'name': 'Himachal Pradesh'}
+357,['Tag'],{'name': 'the Synergy Hospital'}
+358,['Tag'],{'name': 'CCTV'}
+359,['Tag'],{'name': 'dehradun car accident'}
+360,['Tag'],{'name': 'road accident dehradun'}
+361,['Tag'],{'name': 'accident dehradun extremely'}
+362,['Tag'],{'name': 'accident dehradun'}
+363,['Tag'],{'name': 'truck students killed'}
+364,['Tag'],{'name': 'accident students killed'}
+365,['Tag'],{'name': 'die said gemini'}
+366,['Tag'],{'name': 'car accident students'}
+367,['Tag'],{'name': 'students killed injured'}
+368,['Tag'],{'name': 'crashes truck students'}
+369,['Tag'],{'name': 'accident students'}
+370,['Article'],"{'category': 'news and politics', 'createdAt': '2024-11-15T12:54:57.809Z', 'url': 'https://www.thehindu.com/news/international/oli-playing-the-china-card-by-going-to-beijing-nepal-should-balance-ties-prachanda/article68866423.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=1&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+371,['Tag'],{'name': 'K.P. Sharma Oli'}
+372,['Tag'],{'name': 'Nepal'}
+373,['Tag'],{'name': 'Slamming Nepal'}
+374,['Tag'],{'name': 'Pushpa Kamal Dahal'}
+375,['Tag'],{'name': 'Dahal'}
+376,['Tag'],{'name': 'Oli’s'}
+377,['Tag'],{'name': 'S. Jaishankar'}
+378,['Tag'],{'name': 'PM Oli'}
+379,['Tag'],{'name': 'SAARC'}
+380,['Tag'],{'name': 'China'}
+381,['Tag'],{'name': 'Beijing'}
+382,['Tag'],{'name': 'Nepal PM Prachanda'}
+383,['Tag'],{'name': 'Nepali'}
+384,['Tag'],{'name': 'Opposition'}
+385,['Tag'],{'name': 'Prachanda'}
+386,['Tag'],{'name': 'the Nepali Congress party'}
+387,['Tag'],{'name': 'Kantipur Conclave'}
+388,['Tag'],{'name': 'Kathmandu'}
+389,['Tag'],{'name': 'External Affairs'}
+390,['Tag'],{'name': 'KP'}
+391,['Tag'],{'name': 'Nepal’s'}
+392,['Tag'],{'name': 'Pokhara'}
+393,['Tag'],{'name': 'Bhairahawa'}
+394,['Tag'],{'name': 'Hydropower'}
+395,['Tag'],{'name': 'MW'}
+396,['Tag'],{'name': 'the Pancheshwar Multipurpose Project'}
+397,['Tag'],{'name': 'Pakistan'}
+398,['Tag'],{'name': 'india nepal ties'}
+399,['Tag'],{'name': 'nepal ties new'}
+400,['Tag'],{'name': 'ties nepal'}
+401,['Tag'],{'name': 'ties nepal pm'}
+402,['Tag'],{'name': 'nepal ties'}
+403,['Tag'],{'name': 'chatbot gemini'}
+404,['Tag'],{'name': 'india perspective nepal'}
+405,['Tag'],{'name': 'nepal ties taken'}
+406,['Tag'],{'name': 'issue india nepal'}
+407,['Tag'],{'name': 'nepal ties strain'}
+408,['Tag'],{'name': 'nepal balance ties'}
+409,['Article'],"{'category': 'technology and computing', 'createdAt': '2024-11-15T12:55:03.429Z', 'url': 'https://www.thehindu.com/news/national/drdo-successfully-completes-flight-tests-of-75km-guided-pinaka-rocket-system/article68869058.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=0&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+410,['Tag'],{'name': 'DRDO'}
+411,['Tag'],{'name': 'Samir V. Kamat'}
+412,['Tag'],{'name': 'Pinaka'}
+413,['Tag'],{'name': 'The Defence Research and Development Organisation'}
+414,['Tag'],{'name': 'MBRL'}
+415,['Tag'],{'name': 'Provisional Staff Qualitative Requirements'}
+416,['Tag'],{'name': 'The Indian Army'}
+417,['Tag'],{'name': 'Army'}
+418,['Tag'],{'name': 'Grad'}
+419,['Tag'],{'name': 'MLRS'}
+420,['Tag'],{'name': 'Armament Research and Development Establishment'}
+421,['Tag'],{'name': 'Research Centre Imarat'}
+422,['Tag'],{'name': 'Defence Research and Development Laboratory'}
+423,['Tag'],{'name': 'Energy Materials Research Laboratory'}
+424,['Tag'],{'name': 'Proof & Experimental Establishment'}
+425,['Tag'],{'name': 'Munitions India Limited and Economic Explosives Limited'}
+426,['Tag'],{'name': 'Tata Advanced Systems Limited'}
+427,['Tag'],{'name': 'Larsen & Toubro'}
+428,['Tag'],{'name': 'Department of Defence R&D'}
+429,['Tag'],{'name': 'the Indian Army'}
+430,['Tag'],{'name': 'France'}
+431,['Tag'],{'name': 'guided pinaka rocket'}
+432,['Tag'],{'name': 'pinaka mk1 range'}
+433,['Tag'],{'name': 'tests guided pinaka'}
+434,['Tag'],{'name': 'pinaka rocket defence'}
+435,['Tag'],{'name': 'incident saying chatbot'}
+436,['Tag'],{'name': '75km guided pinaka'}
+437,['Tag'],{'name': 'range pinaka 75km'}
+438,['Tag'],{'name': 'pinaka rocket'}
+439,['Tag'],{'name': 'extensive testing rockets'}
+440,['Tag'],{'name': 'range pinaka'}
+441,['Tag'],{'name': 'range rocket artillery'}
+442,['Article'],"{'category': 'health', 'createdAt': '2024-11-15T12:55:06.240Z', 'url': 'https://www.thehindu.com/news/national/india-to-seek-designated-pro-khalistan-terrorist-arsh-dallas-extradition-from-canada-mea/article68868563.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=0&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+443,['Tag'],{'name': 'Arsh Dalla'}
+444,['Tag'],{'name': 'Arshdeep Singh Gill'}
+445,['Tag'],{'name': 'Jaiswal'}
+446,['Tag'],{'name': 'Arsh Singh Gill'}
+447,['Tag'],{'name': 'Hardeep Singh Nijjar'}
+448,['Tag'],{'name': 'pro-Khalistan'}
+449,['Tag'],{'name': 'Canada'}
+450,['Tag'],{'name': 'Ontario'}
+451,['Tag'],{'name': 'the Ministry of External Affairs'}
+452,['Tag'],{'name': 'MEA'}
+453,['Tag'],{'name': 'the Khalistan Tiger Force'}
+454,['Tag'],{'name': 'KTF'}
+455,['Tag'],{'name': 'the Ontario Court'}
+456,['Tag'],{'name': 'the Union Home Ministry'}
+457,['Tag'],{'name': 'the Mutual Legal Assistance Treaty'}
+458,['Tag'],{'name': 'MLAT'}
+459,['Tag'],{'name': 'the Department of Justice of Canada'}
+460,['Tag'],{'name': 'Babbar Khalsa International'}
+461,['Tag'],{'name': 'Khalistan Liberation Force'}
+462,['Tag'],{'name': 'International Sikh Youth Federation'}
+463,['Tag'],{'name': 'The National Investigation Agency'}
+464,['Tag'],{'name': 'NIA'}
+465,['Tag'],{'name': 'arsh dalla extradition'}
+466,['Tag'],{'name': 'dalla extradition canada'}
+467,['Tag'],{'name': 'arsh dalla criminal'}
+468,['Tag'],{'name': 'ai chatbot response'}
+469,['Tag'],{'name': 'dalla extradition'}
+470,['Tag'],{'name': 'offender arsh singh'}
+471,['Tag'],{'name': 'extradition canada view'}
+472,['Tag'],{'name': 'arsh dalla suspected'}
+473,['Tag'],{'name': 'extradition canada'}
+474,['Tag'],{'name': 'extradition request said'}
+475,['Tag'],{'name': 'murder extortion terrorist'}
+476,['Article'],"{'category': 'news and politics', 'createdAt': '2024-11-15T12:55:09.569Z', 'url': 'https://www.thehindu.com/news/international/arsh-dalla-aide-of-hardeep-singh-nijjar-arrested-by-canadian-police/article68852359.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=4&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+477,['Tag'],{'name': 'Singh Gill'}
+478,['Tag'],{'name': 'Surrey BC'}
+479,['Tag'],"{'name': ""Arsh Dalla's""}"
+480,['Tag'],{'name': 'Kharar'}
+481,['Tag'],{'name': 'Gaurav Yadav'}
+482,['Tag'],{'name': 'Anmolpreet Singh'}
+483,['Tag'],{'name': 'Navjot Singh'}
+484,['Tag'],{'name': 'Gill'}
+485,['Tag'],{'name': 'Nijjar'}
+486,['Tag'],{'name': 'Ontario Province'}
+487,['Tag'],{'name': 'Milton'}
+488,['Tag'],{'name': 'The Halton Regional Police Service'}
+489,['Tag'],{'name': 'Khalistan Tiger Force'}
+490,['Tag'],{'name': 'Guelph Police'}
+491,['Tag'],{'name': 'Guelph'}
+492,['Tag'],{'name': 'Halton'}
+493,['Tag'],{'name': 'Halton Hills'}
+494,['Tag'],{'name': 'Discharging Firearm'}
+495,['Tag'],{'name': 'Punjab Police'}
+496,['Tag'],{'name': 'Sikh'}
+497,['Tag'],{'name': 'Mohali'}
+498,['Tag'],{'name': 'Vishal'}
+499,['Tag'],{'name': 'Bhadorh'}
+500,['Tag'],{'name': 'Barnala'}
+501,['Tag'],{'name': 'Neetu'}
+502,['Tag'],{'name': 'The Union Home Ministry'}
+503,['Tag'],{'name': 'the National Investigation Agency'}
+504,['Tag'],{'name': 'the Unlawful Activities (Prevention) Act'}
+505,['Tag'],{'name': 'terrorist arsh dalla'}
+506,['Tag'],{'name': 'arsh dalla accused'}
+507,['Tag'],{'name': 'reported cbs gemini'}
+508,['Tag'],{'name': 'dalla designated terrorist'}
+509,['Tag'],{'name': 'designated terrorist arsh'}
+510,['Tag'],{'name': 'nijjar designated terrorist'}
+511,['Tag'],{'name': 'terrorist arsh'}
+512,['Tag'],{'name': 'designated terrorist indian'}
+513,['Tag'],{'name': 'arrest shooters arsh'}
+514,['Tag'],{'name': 'designated terrorist killed'}
+515,['Tag'],{'name': 'terrorist indian'}
+516,['Article'],"{'category': 'health', 'createdAt': '2024-11-15T12:55:14.312Z', 'url': 'https://www.thehindu.com/news/national/manipur-jiribam-militants-killed-in-encounter-november-11-2024/article68855736.ece?cx_testId=81&cx_testVariant=cx_1&cx_artPos=5&cx_experienceId=EXPO56ZDYSGX&cx_experienceActionId=showRecommendations7EV8PP8TM51R64#cxrecs_s'}"
+517,['Tag'],{'name': 'Manipur Violence'}
+518,['Tag'],{'name': 'Kuki-Zo'}
+519,['Tag'],{'name': 'Assam’s Cachar'}
+520,['Tag'],{'name': 'Sanjeev Kumar'}
+521,['Tag'],{'name': 'Tangkhul Naga'}
+522,['Tag'],{'name': 'Kangso Horam'}
+523,['Tag'],{'name': 'Manipur'}
+524,['Tag'],{'name': 'Jiribam'}
+525,['Tag'],{'name': 'Central Reserve Police Force'}
+526,['Tag'],{'name': 'The Kuki-Zo Council'}
+527,['Tag'],{'name': 'Churachandpur'}
+528,['Tag'],{'name': 'CRPF'}
+529,['Tag'],{'name': 'Jakuradhor'}
+530,['Tag'],{'name': 'Borobekra'}
+531,['Tag'],{'name': 'Silchar Medical College and'}
+532,['Tag'],{'name': 'Assam'}
+533,['Tag'],{'name': 'AR'}
+534,['Tag'],{'name': 'CRPF party'}
+535,['Tag'],{'name': 'the Kuki-Zo Council'}
+536,['Tag'],{'name': 'District Magistrate Krishna Kumar'}
+537,['Tag'],{'name': 'Imphal’s Jawaharlal Nehru Institute of Medical Sciences Hospital'}
+538,['Tag'],{'name': 'Bishnupur'}
+539,['Tag'],{'name': 'manipur violence militants'}
+540,['Tag'],{'name': 'manipur violence curfew'}
+541,['Tag'],{'name': 'killed manipur jiribam'}
+542,['Tag'],{'name': 'militants killed manipur'}
+543,['Tag'],{'name': 'security forces manipur'}
+544,['Tag'],{'name': 'killed manipur'}
+545,['Tag'],{'name': 'manipur violence'}
+546,['Tag'],{'name': 'forces manipur jiribam'}
+547,['Tag'],{'name': 'attack jiribam district'}
+548,['Tag'],{'name': 'manipur police'}

@@ -1,6 +1,7 @@
 let startTime = null;
 let totalTimeSpent = 0;
 let isTabActive = true;
+let dataSent = false; // Flag to prevent multiple requests
 
 function trackTime() {
     console.log('Tracking time...');
@@ -9,7 +10,6 @@ function trackTime() {
         startTime = new Date().getTime();
     }
 
-    // Track visibility changes (tab becoming inactive/active)
     document.addEventListener('visibilitychange', () => {
         if (document.hidden) {
             pauseTime();
@@ -18,52 +18,41 @@ function trackTime() {
         }
     });
 
-    // Track when the tab is about to be closed
-    window.addEventListener('beforeunload', () => {
-        pauseTime();
-        sendTrackingData();  // Send the tracking data before the page is unloaded
-    });
-
-    // Also handle pagehide event as a fallback
-    window.addEventListener('pagehide', () => {
-        pauseTime();
-        sendTrackingData();  // Send data when the page is hidden
-    });
+    window.addEventListener('beforeunload', () => handlePageExit());
+    window.addEventListener('pagehide', () => handlePageExit());
 }
 
 function pauseTime() {
-    if (!isTabActive) return;  // If already inactive, do nothing
+    if (!isTabActive) return;
     const endTime = new Date().getTime();
     totalTimeSpent += endTime - startTime;
     isTabActive = false;
-    console.log(`Tab became inactive. Time paused at: ${totalTimeSpent / 1000} seconds`);
+    console.log(`Tab inactive. Time paused at: ${totalTimeSpent / 1000} seconds`);
 }
 
 function resumeTime() {
-    if (isTabActive) return;  // If already active, do nothing
-    startTime = new Date().getTime();  // Reset start time to current time
+    if (isTabActive) return;
+    startTime = new Date().getTime();
     isTabActive = true;
-    console.log('Tab became active again. Resuming time tracking...');
-}
-
-function logElapsedTime() {
-    const totalElapsedTime = totalTimeSpent + (isTabActive ? new Date().getTime() - startTime : 0);
-    const minutes = Math.floor(totalElapsedTime / 60000);
-    const seconds = Math.floor((totalElapsedTime % 60000) / 1000);
-
-    console.log(`Time spent on the webpage: ${minutes} minutes ${seconds} seconds`);
+    console.log('Tab active again. Resuming time tracking...');
 }
 
 function sendTrackingData() {
     const totalElapsedTime = totalTimeSpent + (isTabActive ? new Date().getTime() - startTime : 0);
-
+    if (dataSent) return; // Check if data has already been sent
     chrome.runtime.sendMessage({
         action: 'sendTrackingData',
         data: {
-            timeSpent: totalElapsedTime,  // Send the total time spent
+            timeSpent: totalElapsedTime,
             url: window.location.href
         }
     });
+    dataSent = true; // Set the flag to true after sending data
+}
+
+function handlePageExit() {
+    pauseTime();
+    sendTrackingData();
 }
 
 // Listen for messages from the background script (start or stop tracking)
@@ -72,15 +61,15 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         trackTime();
     } else if (message.action === 'stopTracking') {
         console.log('Tracking stopped');
-        pauseTime();  // Pause time immediately when tracking stops
-        sendTrackingData();  // Send data right when tracking is stopped
+        pauseTime();
+        sendTrackingData();
         document.removeEventListener('visibilitychange', pauseTime);
-        window.removeEventListener('beforeunload', sendTrackingData);
-        window.removeEventListener('pagehide', sendTrackingData);
+        window.removeEventListener('beforeunload', handlePageExit);
+        window.removeEventListener('pagehide', handlePageExit);
     }
 });
 
-// Automatically start tracking when the extension is enabled
+// Automatically start tracking if the extension is enabled
 window.onload = () => {
     chrome.storage.local.get('extensionEnabled', (result) => {
         if (result.extensionEnabled) {

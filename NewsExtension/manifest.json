@@ -1,35 +1,46 @@
 {
-    "manifest_version": 3,
-    "name": "User Interest Tracker",
-    "version": "1.0",
-    "permissions": [
-      "tabs",
-      "activeTab",
-      "storage",
-      "webNavigation",
-      "history"
-    ],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["content.js"]
-      }
-    ],
-    "action": {
-      "default_popup": "popup.html"
-    //   "default_icon": {
-    //     "16": "icons/icon16.png",
-    //     "48": "icons/icon48.png",
-    //     "128": "icons/icon128.png"
-    //   }
+  "manifest_version": 3,
+  "name": "User Interest Tracker",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "webNavigation",
+    "history"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.bbc.com/news/*",
+        "https://www.cnn.com/*",
+        "https://www.reuters.com/*",
+        "https://www.nytimes.com/*",
+        "https://www.theguardian.com/*",
+        "https://www.aljazeera.com/*",
+        "https://www.bloomberg.com/*",
+        "https://www.ndtv.com/*",
+        "https://timesofindia.indiatimes.com/*",
+        "https://www.thehindu.com/*",
+        "https://www.hindustantimes.com/*",
+        "https://www.indiatoday.in/*",
+        "https://indianexpress.com/*",
+        "https://www.deccanherald.com/*",
+        "https://www.news18.com/*",
+        "https://www.tribuneindia.com/*",
+        "https://www.financialexpress.com/*",
+        "https://www.business-standard.com/*",
+        "https://www.livemint.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
     }
-    // "icons": {
-    //   "16": "icons/icon16.png",
-    //   "48": "icons/icon48.png",
-    //   "128": "icons/icon128.png"
-    // }
+  ],
+  "action": {
+    "default_popup": "popup.html"
   }
-  
+}

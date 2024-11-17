@@ -1,11 +1,16 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const { fetchNewsArticle, processText } = require("./helpers/helpers");
+const cors = require("cors");
+const { fetchNewsArticle, processText, fetchCategory, createGraph } = require("./helpers/helpers");
+const News = require("./schema/schema");
+const createGraphFromData = require("./helpers/createGraph");
+
 
 const app = express();
 const port = 5000;
 
 app.use(express.json());
+app.use(cors());
 
 // Connect to MongoDB
 mongoose
@@ -24,92 +29,71 @@ app.get("/", (req, res) => {
     res.send("Hello, World!");
 });
 
-// app.post('/process-text', (req, res) => {
-
-//     const rawText = req.body.pageContent;
-//     if (!rawText) {
-//         return res.status(400).send('No text provided');
-//     }
-
-//     // Spawn a new Python process
-//     const python = spawn('python', ['./pythonFiles/textProcessor.py', rawText]);
-
-//     let pythonOutput = '';
-
-//     // Capture Python output
-//     python.stdout.on('data', (data) => {
-//         pythonOutput += data.toString();
-//     });
-
-//     // Handle Python script errors
-//     python.stderr.on('data', (data) => {
-//         console.error(`Python error: ${data}`);
-//         if (!res.headersSent) { // Only send a response if headers are not already sent
-//             res.status(500).send('Python script error');
-//         }
-//     });
-
-//     // On Python script completion
-//     python.on('close', (code) => {
-//         if (code !== 0) {
-//             if (!res.headersSent) {
-//                 return res.status(500).send('Error processing text');
-//             }
-//         }
-
-//         // Parse the JSON response from Python
-//         try {
-//             const processedData = JSON.parse(pythonOutput);
-//             if (!res.headersSent) { // Only send a response if headers are not already sent
-//                 console.log(processedData);
-//                 res.json({ processedText: processedData.processed_text });
-//             }
-//         } catch (error) {
-//             if (!res.headersSent) { // Only send a response if headers are not already sent
-//                 res.status(500).send('Error parsing Python output');
-//             }
-//         }
-//     });
-// });
-
-// Start the server
-
-app.post("/process-text", (req, res) => {
+app.post("/process-text", async (req, res) => {
     const { url, timeSpent } = req.body;
 
-    console.log("Received data:", req.body);
+    try {
 
-    fetchNewsArticle(url)
-        .then((articleData) => {
-            console.log("Fetched article:", articleData);
-            const pageContent = articleData.title + ". " + articleData.text;
-            if(articleData.text.length < 100) {
-                console.log("Article too short, skipping processing");
-                return res.status(400).json({ error: "Article too short" });
-            }
-            processText(pageContent, url)
-                .then(({ result, tabUrl }) => {
-                    // Combine result with timeSpent and tabUrl
-                    const dataToSend = {
-                        keywords: result.keywords,
-                        entities: result.entities,
-                        topics: result.topics,
-                        url: url,
-                        timeSpent,
-                    };
+        // Step 1: Fetch the news article
+        const articleData = await fetchNewsArticle(url);
 
-                    console.log("Data processed:", dataToSend);
-                })
-                .catch((err) => {
-                    console.error("Error in processing text:", err);
-                    res.status(500).json({ error: "Text processing failed" });
-                });
-        })
-        .catch((err) => {
-            console.error("Error fetching article:", err);
-            return res.status(500).json({ error: "Failed to fetch article" });
-        });
+        // Combine the title and text for processing
+        const pageContent = articleData.title + ". " + articleData.text;
+
+        // Check if the article is too short
+        if (articleData.text.length < 500) {
+            console.log("Article too short, skipping processing");
+            return res.status(400).json({ error: "Article too short" });
+        }
+
+        // Step 2: Run `fetchCategory` and `processText` in parallel
+        // const [category, { result, tabUrl }] = await Promise.all([
+        //     fetchCategory(pageContent), // Fetch category
+        //     processText(pageContent, url), // Process text
+        // ]);
+
+        const category = await fetchCategory(pageContent);
+
+        const { result, tabUrl} = await processText(pageContent, url);
+
+        // Combine result with additional data
+        const dataToSend = {
+            tags: result.tags,
+            url: url,
+            category: category,
+            timeSpent,
+        };
+
+        // Step 3: Save data to MongoDB
+        const news = new News(dataToSend);
+        await news.save();
+        console.log("Data saved to MongoDB:", dataToSend);
+
+        // (Optional) Step 4: Create the graph
+        // await createGraph(result.tags, url, timeSpent);
+
+        // Send success response
+        res.status(200).json({ message: "Text processed and graph updated" });
+    } catch (err) {
+        console.error("Error processing text:", err);
+        res.status(500).json({ error: "An error occurred while processing the text" });
+    }
 });
+
+
+app.get('/create-graph', async (req, res) => {
+    try {
+        const articleData = await News.find();
+
+        await createGraph(articleData);
+
+        res.status(200).json({ message: 'Graph creation completed successfully' });
+    } catch (error) {
+        console.error('Error creating the graph:', error);
+        res.status(500).json({ error: 'Failed to create graph' });
+    }
+});
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
